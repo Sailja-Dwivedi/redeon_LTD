@@ -7,46 +7,12 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="../css/index.css">
-  <!-- <style>
-  :root {
-    --primary-color: #1e2a38 ;
-    --accent-color: #00c6a9;
-    --light-bg: #f9f9f9;
-  }
-  body {
-    font-family: 'Segoe UI', sans-serif;
-    scroll-behavior: smooth;
-  }
-  nav, footer {
-    background-color: var(--primary-color);
-  }
-  nav a, footer {
-    color: white;
-  }
-  h2 {
-    color: var(--primary-color);
-  }
-  .services-img, .portfolio-img {
-    border-radius: 50%;
-  }
-  section {
-    padding: 60px 0;
-  }
-  .fade-in {
-    animation: fadeInUp 1s ease-in-out;
-  }
-  @keyframes fadeInUp {
-    from { opacity: 0; transform: translateY(40px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-
-  </style> -->
 </head>
 <body>
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
   <div class="container">
-    <a class="navbar-brand" href="#home">Radeon LTD</a>
+    <a class="navbar-brand" href="#home"><b>Radeon LTD</b></a>
     <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -65,15 +31,15 @@
 <!-- Home -->
 <header id="home" class="text-center text-white d-flex align-items-center justify-content-center" style="height: 99vh; background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/Tidel_Park.jpg') center/cover no-repeat;">
   <div class="fade-in">
-    <h1 class="display-4">Welcome to Radeon Company LTD</h1>
-    <p class="lead">Securing your Bank's Network Infrastructure</p>
+    <h1 class="display-4" style="font-weight: bold;">Welcome to Radeon Company LTD</h1>
+    <p class="lead" style="font-weight: bold;">Securing your Bank's Network Infrastructure</p>
   </div>
 </header>
 <!-- About -->
 <section id="about" class="bg-light fade-in">
   <div class="container">
     <h2 class="text-center mb-4">About Us</h2>
-    <p class="text-center">Radeon Company LTD is dedicated to securing banking networks with advanced technology, robust firewalls, and real-time monitoring. We ensure smooth and safe banking operations by managing server systems and providing secure communication channels across floors and departments.</p>
+    <p class="text-center" style="font-size: 1.3rem;">Radeon Company LTD is dedicated to securing banking networks with advanced technology, robust firewalls, and real-time monitoring. We ensure smooth and safe banking operations by managing server systems and providing secure communication channels across floors and departments.</p>
   </div>
 </section>
 <!-- Services -->
@@ -82,23 +48,37 @@
     <h2 class="text-center mb-4">Our Services</h2>
     <div class="row text-center">
       <div class="col-md-4 mb-4">
-        <img src="images/management.jpg" class="img-fluid services-img" alt="Management">
+        <img src="../img/managment.jpg" class="img-fluid services-img" alt="Management">
         <h5>Management</h5>
         <p>High-speed secure LAN and shared printing environment with data backup protocols.</p>
       </div>
       <div class="col-md-4 mb-4">
-        <img src="images/research.jpg" class="img-fluid services-img" alt="Research">
+        <img src="../img/research.jpg" class="img-fluid services-img" alt="Research">
         <h5>Research</h5>
         <p>Dedicated VPNs and firewall filtering to maintain research confidentiality and performance.</p>
       </div>
       <div class="col-md-4 mb-4">
-        <img src="images/humanresource.jpg" class="img-fluid services-img" alt="HR">
+        <img src="../img/hr.jpg" class="img-fluid services-img" alt="HR">
         <h5>Human Resource</h5>
         <p>Centralized employee database management with secure role-based access control.</p>
       </div>
-      <div class="col-12 text-center">
-        <img src="images/network_diagram.png" class="img-fluid rounded mt-4" alt="Network Layout">
-        <p class="mt-2">Full network coverage with floor-wise segmentation and secure admin access</p>
+      
+      <div class="row text-center">
+        <div class="col-md-4 mb-4">
+          <img src="../img/marketing-image.jpg" class="img-fluid services-img" alt="Marketing">
+          <h5>Marketing</h5>
+          <p>Targeted digital campaigns and analytics to enhance customer outreach and brand visibility.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <img src="../img/account.jpg" class="img-fluid services-img" alt="Accounting">
+          <h5>Accounting</h5>
+          <p>Automated financial reporting and audit-ready bookkeeping with real-time monitoring.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <img src="../img/Finance.jpg" class="img-fluid services-img" alt="Finance">
+          <h5>Finance</h5>
+          <p>Robust investment planning tools and secure fund management through encrypted systems.</p>
+        </div>
       </div>
     </div>
   </div>
@@ -109,14 +89,24 @@
     <h2 class="text-center mb-4">Portfolio</h2>
     <div class="row">
       <div class="col-md-6">
-        <img src="images/bank1.jpg" class="img-fluid portfolio-img" alt="Project 1">
+        <img src="../img/nb.png" class="img-fluid portfolio-img" alt="Project 1">
         <h5 class="mt-3">XYZ National Bank</h5>
         <p>Network revamp with 3-layer switch architecture, firewall, and VPN setup for remote branches.</p>
       </div>
       <div class="col-md-6">
-        <img src="images/bank2.jpg" class="img-fluid portfolio-img" alt="Project 2">
+        <img src="../img/fincope.jpg" class="img-fluid portfolio-img" alt="Project 2">
         <h5 class="mt-3">SecureFin Corp</h5>
         <p>Integrated secure email, DHCP, and real-time monitoring system for enhanced data security.</p>
+      </div>
+      <div class="col-md-6 mb-4">
+        <img src="../img/gt.jpg" class="img-fluid portfolio-img" alt="Project 3">
+        <h5 class="mt-3">GlobalTrust Bank</h5>
+        <p>Implemented biometric-secured login systems and branch-wide fiber-optic connectivity for high-speed operations.</p>
+      </div>
+      <div class="col-md-6 mb-4">
+        <img src="../img/nextgen.jpg" class="img-fluid portfolio-img" alt="Project 4">
+        <h5 class="mt-3">NextGen Finance</h5>
+        <p>Cloud-integrated backup solutions with end-to-end encryption and 24/7 infrastructure support.</p>
       </div>
     </div>
   </div>
@@ -125,22 +115,60 @@
 <section id="testimonials" class="fade-in">
   <div class="container">
     <h2 class="text-center mb-4">Testimonials</h2>
-    <div class="row">
-      <div class="col-md-6">
-        <blockquote class="blockquote">
-          <p>"Radeon helped us upgrade our entire network with zero downtime and maximum security."</p>
-          <footer class="blockquote-footer">IT Head, SecureBank Ltd.</footer>
-        </blockquote>
-      </div>
-      <div class="col-md-6">
-        <blockquote class="blockquote">
-          <p>"Their team is very responsive and technically strong. Highly recommended for secure infra."</p>
-          <footer class="blockquote-footer">CIO, TrustFinance</footer>
-        </blockquote>
-      </div>
-    </div>
+    
+    <blockquote class="blockquote mb-4">
+      <p>
+        "Radeon helped us upgrade our entire network with zero downtime and maximum security.<br>
+        Their project planning was clear and well-structured from day one.<br>
+        We faced no disruptions during business hours throughout the upgrade.<br>
+        Every aspect of our infrastructure was optimized and made future-ready.<br>
+        Their team demonstrated exceptional technical expertise and coordination.<br>
+        Truly impressed by their commitment to quality and security."
+      </p>
+      <footer class="blockquote-footer">IT Head, SecureBank Ltd.</footer>
+    </blockquote>
+
+    <blockquote class="blockquote mb-4">
+      <p>
+        "Their team is very responsive and technically strong. Highly recommended for secure infra.<br>
+        We had a complex email encryption requirement which they handled seamlessly.<br>
+        Not only did they deliver ahead of schedule, but also trained our staff.<br>
+        The monitoring system they implemented catches anomalies instantly.<br>
+        We feel confident knowing our system is in safe hands.<br>
+        Reliable and professional – a top choice for any financial firm."
+      </p>
+      <footer class="blockquote-footer">CIO, TrustFinance</footer>
+    </blockquote>
+
+    <blockquote class="blockquote mb-4">
+      <p>
+        "Radeon transformed our outdated IT setup into a modern, efficient network.<br>
+        The firewall and intrusion detection systems are performing flawlessly.<br>
+        Their documentation and transparency throughout the project stood out.<br>
+        Every query was addressed promptly with actionable solutions.<br>
+        We now have peace of mind knowing our data is protected.<br>
+        Would absolutely recommend their services to others in banking."
+      </p>
+      <footer class="blockquote-footer">Network Manager, GlobalTrust Bank</footer>
+    </blockquote>
+
+    <blockquote class="blockquote mb-4">
+      <p>
+        "From consultation to implementation, Radeon exceeded our expectations at every step.<br>
+        They provided insightful suggestions during the initial design phase.<br>
+        Their team worked after hours to avoid any disruption to our operations.<br>
+        Our branch connectivity and uptime have improved drastically.<br>
+        Even post-deployment support has been outstanding.<br>
+        Definitely the best partner for critical infrastructure work."
+      </p>
+      <footer class="blockquote-footer">CTO, FinSecure Solutions</footer>
+    </blockquote>
+
+    
+
   </div>
 </section>
+
 <!-- Contact -->
 <section id="contact" class="bg-light fade-in">
   <div class="container">
@@ -149,24 +177,74 @@
       <div class="col-md-6">
         <h5>Radeon Company LTD</h5>
         <p>123 Cyber Park, IT City, India</p>
-        <p>Phone: +91-9876543210</p>
+        <p>Phone: +91-9304100514</p>
         <p>Email: contact@radeonltd.com</p>
         <p>
-          <a href=""><i class="fab fa-facebook me-2"></i></a>
-          <a href=""><i class="fab fa-twitter me-2"></i></a>
-          <a href="https://linkdin.com"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook me-2"></i></a>
+          <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter me-2"></i></a>
+          <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
         </p>
       </div>
       <div class="col-md-6">
-        <img src="images/contact.jpg" class="img-fluid rounded" alt="Contact Image">
+        <img src="../img/contact.jpg" class="img-fluid rounded" alt="Contact Image">
       </div>
+      <!-- Add this inside your Contact section, below the company info or image -->
+<div class="text-center mt-3">
+  <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#queryModal">
+    Send a Query
+  </button>
+</div>
+
+      <!-- Query Form Modal -->
+<div class="modal fade" id="queryModal" tabindex="-1" aria-labelledby="queryModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <form action="https://formsubmit.co/shailjad719@gmail.com" method="POST">
+        <div class="modal-header">
+          <h5 class="modal-title" id="queryModalLabel">Send Your Query</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" name="Name" id="name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" name="Email" id="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="mobile" class="form-label">Mobile</label>
+            <input type="tel" class="form-control" name="Mobile" id="mobile" required>
+          </div>
+          <div class="mb-3">
+            <label for="location" class="form-label">Location</label>
+            <input type="text" class="form-control" name="Location" id="location">
+          </div>
+          <div class="mb-3">
+            <label for="query" class="form-label">Your Query</label>
+            <textarea class="form-control" name="Query" id="query" rows="3" required></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="submit" class="btn btn-primary">Submit Query</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
     </div>
   </div>
 </section>
 <!-- Footer -->
+ <div class="footer">
 <footer class="text-center py-3">
-  <p>&copy; 2025 Radeon Company LTD. All Rights Reserved.</p>
+  <p>&copy; 2025 Radeon Company LTD. All Rights Reserved. Devloped by Hritik Kumar Pandey.🤍🤍</p>
+</div>
 </footer>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
